@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.Comparator;
 import java.util.List;
 
-/** Banknote denominations stored in the ATM (in lei). */
+/* Banknote denominations stored in the ATM (in lei). */
 public enum Cimlet {
     TIZ(10),
     OTVEN(50),
@@ -21,7 +21,7 @@ public enum Cimlet {
         return ertek;
     }
 
-    /** Largest first: 200, 100, 50, 10 - the order the payout algorithm tries them in. */
+    /* Largest first: 200, 100, 50, 10 - the order the payout algorithm tries them in. */
     public static List<Cimlet> csokkenoSorrendben() {
         return Arrays.stream(values())
                 .sorted(Comparator.comparingInt(Cimlet::ertek).reversed())

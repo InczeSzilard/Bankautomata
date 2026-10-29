@@ -1,3 +1,6 @@
 com\mycompany\bankautomata\model\KartyaTest.class
+com\mycompany\bankautomata\rule\NapiLimitSzabalyTest.class
+com\mycompany\bankautomata\service\AtmTest.class
+com\mycompany\bankautomata\journal\FajlNaploTest.class
 com\mycompany\bankautomata\model\SzamlaTest.class
 com\mycompany\bankautomata\cash\CimletKazettaTest.class

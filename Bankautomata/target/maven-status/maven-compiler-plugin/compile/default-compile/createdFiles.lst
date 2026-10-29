@@ -30,5 +30,6 @@ com\mycompany\bankautomata\data\KartyaTar.class
 com\mycompany\bankautomata\kivetel\NincsElegKeszpenz.class
 com\mycompany\bankautomata\ui\Bemenet$VegeKivetel.class
 com\mycompany\bankautomata\service\Atm.class
+com\mycompany\bankautomata\rule\AllithatoOra.class
 com\mycompany\bankautomata\journal\FajlNaplo.class
 com\mycompany\bankautomata\rule\NapiLimitSzabaly.class

@@ -24,10 +24,10 @@ public class Kartya {
 
     public Kartya(String kartyaSzam, String pin, Szamla szamla) {
         if (kartyaSzam == null || kartyaSzam.isBlank()) {
-            throw new IllegalArgumentException("A kártyaszám nem lehet üres.");
+            throw new IllegalArgumentException("A kartyaszam nem lehet ures.");
         }
         if (pin == null || !pin.matches("\\d{4}")) {
-            throw new IllegalArgumentException("A PIN-kódnak pontosan 4 számjegyből kell állnia.");
+            throw new IllegalArgumentException("A PIN-kodnak pontosan 4 szamjegybol kell allnia.");
         }
         this.kartyaSzam = kartyaSzam;
         this.pin = pin.getBytes(StandardCharsets.UTF_8);
